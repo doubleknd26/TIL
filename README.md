@@ -4,3 +4,7 @@
 
 ### Git
 - [How to merge reverted commit](https://github.com/doubleknd26/TIL/blob/main/Git/How_to_merge_reverted_commit.md)
+
+
+### Python
+- [How to install python3.x on Mac](https://github.com/doubleknd26/TIL/blob/main/Python/how_to_install_python3_on_mac.md)
