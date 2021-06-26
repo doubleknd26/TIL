@@ -14,7 +14,7 @@
 6. pip -V # pip version 확인.
 
 
-
+<br><br>
 tip) virtual environment 를 만들고 싶으면 아래 명령어 사용.
 
 ```
