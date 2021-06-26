@@ -1,8 +1,13 @@
 # How to merge reverted commit
 
 
-```
--C1-C2-M
+```bash
+-rw-r--r--  1 doubleknd26  admin  0 Jun 26 16:57 t1
+doubleknd26 ~/dev/git [master] $ git log --pretty=oneline --graph
+* 0b44e7340409420aeae064e3f784fd2636980252 (HEAD -> master) add t1 file
+doubleknd26 ~/dev/git [master] $ ll
+total 0
+-rw-r--r--  1 doubleknd26  admin  0 Jun 26 16:57 t1
 
 ```
 
