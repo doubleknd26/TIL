@@ -3,12 +3,12 @@
 
 ```java
 public class Main {
-
-  public static void main(String[] args) {
-    if (a() || b() && c()) {
+	public static void main(String[] args) {
+		if (a() || b() && c()) {
 			System.out.println("Hello world!");
 		}
-  }
+	}
+
 	
 	private static boolean a() {
 		System.out.println("A");
@@ -51,5 +51,6 @@ a() || (b() && c())
 
 
 
-*reference: https://stackoverflow.com/questions/21557124/logical-operator-precedence-in-java
+reference: 
+*https://stackoverflow.com/questions/21557124/logical-operator-precedence-in-java
 https://docs.oracle.com/javase/specs/jls/se7/html/jls-15.html#jls-15.7*
