@@ -36,7 +36,7 @@ git stash -a (or --all) # save all changes including ignored files.
 ## multiple git stash
 ```bash
 $ git stash list
-stash@{0}: On master: create t3
+stash@{0}: On master: create t3 # git statsh save "create t3"
 stash@{1}: WIP on master: 08a97f0 init
 ```
 
