@@ -13,3 +13,8 @@
 
 ### Python
 - [How to install python3.x on Mac](https://github.com/doubleknd26/TIL/blob/main/Python/how_to_install_python3_on_mac.md)
+
+
+### ETC
+- [How to check memory usage in linux](https://github.com/doubleknd26/TIL/blob/main/ETC/how_to_check_linux_memory_usage.md)
+- [what is difference between dismiss and snooze](https://github.com/doubleknd26/TIL/blob/main/ETC/dismiss_and_snooze.md)
