@@ -28,6 +28,8 @@ hey     | 0
 - suffix: 접미사, 문자열의 오른쪽부터 시작해서 차례로 한개씩 더 읽어가면서 만듦.
 - Failure Function (pi): 문자열 일치 여부를 검사하다가, 불일치(실패)가 발생했을 때, 불일치 발생 이전까지 일치했던 내용을 건너뛴 다음 검사 위치를 제공해주는 함수. 불필요하게 반복되는 부분 문자열 검사를 피할 수 있게 해준다.
 
+**Code**
+
 ```java
 static int[] getPi(String pattern) {
     char[] pArr = pattern.toCharArray();
@@ -77,4 +79,9 @@ static List<Integer> kmp(String s, String p) {
 }
 ```
 
-시간복잡도: O(n+m) -> TODO clarity it
+시간복잡도: O(n+m) or O(n)
+
+- n: length of base string -> kmp()
+- m: length of pattern string -> getPi()
+
+
