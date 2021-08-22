@@ -77,3 +77,4 @@ static List<Integer> kmp(String s, String p) {
 }
 ```
 
+시간복잡도: O(n+m) -> TODO clarity it
